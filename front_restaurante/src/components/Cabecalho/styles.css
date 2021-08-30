@@ -1,0 +1,76 @@
+.imagem-cabecalho {
+    background-color: rgba(0, 0, 0, 0);
+    height: 32vh;
+    width: 100vw;
+    border-radius: 0 0 232px 0;
+    background-position:center;
+    background-size:cover;
+    position: relative;
+    z-index: 0;
+}
+
+.dash-ilustracao {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 66%;
+    height: auto;
+}
+
+.avatar-borda {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    top: 18vh;
+    left: 8vw;
+    background-color: black;
+    height: 17.6rem;
+    width: 17.6rem;
+    border-radius: 50%;
+    border: solid 0.6rem var(--branco);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.avatar{
+    height: 17.6rem;
+    width: auto;
+}
+
+.localizar-titulo{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 12vh;
+    left: 23vw;
+    color: var(--branco);
+    font-size: 4rem;
+}
+
+.localizar-titulo div{
+    position: relative;
+    display: flex;
+    gap: 2rem;
+    z-index: 2;
+}
+
+.botao-logout{
+    margin-left: 34vw;
+    color: var(--branco);
+    background-color: transparent;
+    font-size: 1.6rem;
+    font-weight: 400;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.botao-logout:hover{
+    transform: scale(1.06);
+}
+
+.sombreado {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.5);
+}

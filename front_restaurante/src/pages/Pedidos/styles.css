@@ -1,0 +1,39 @@
+.sub-cabecalho-pedidos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 4vh 15vw 0vh 0vw;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: 4rem;
+    width: 13rem;
+    box-shadow: 0rem 0.4rem 0.4rem rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    cursor: pointer;
+    background-color: var(--branco);
+    color: var(--cinza-escuro);
+}
+
+.select:hover {
+    background-color: #F0F0F0;
+}
+
+.right {
+    border-radius: 0rem 0.5rem 0.5rem 0rem;
+}
+
+.left {
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+}
+
+.ativo, .ativo:hover {
+    background-color: var(--laranja-intenso);
+    color: var(--branco);
+    pointer-events: none;
+}

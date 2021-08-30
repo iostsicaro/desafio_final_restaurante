@@ -1,0 +1,65 @@
+.input-select {
+    position: relative;
+}
+
+.input-select button{
+    all: unset;
+    width:100%;
+    cursor: pointer;
+}
+
+.input-select button:focus{
+    border: 2px solid black;
+    border-radius: 0.7rem;
+    box-sizing: border-box;
+}
+
+.input-select input{
+    width:100%;
+    cursor: pointer;
+}
+
+
+.input-select input:disabled{
+    background-color:white;
+}
+
+.select-seta {
+    position: absolute;
+    top: 4.1rem;
+    right: 1.5rem;
+    z-index: 4;
+    cursor: pointer;
+}
+
+.baixo {
+    transform: rotate(180deg);
+}
+
+.select-drop{
+    position: absolute;
+    z-index: 13;
+    top: 12vh;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BEBEBE;
+    color: var(--cinza-escuro);
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    padding: 1rem 0rem;
+    background-color: white;
+    width: 27.4vw;
+    max-height: 20vh;
+    overflow-y: auto;
+}
+
+.drop-itens{
+    color: var(--cinza-escuro);
+    font-size: 1.6rem;
+    padding: 1rem 2.4rem;
+}
+
+.drop-itens:hover{
+    background-color: #C9CCD199;
+    cursor: pointer;
+}

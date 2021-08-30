@@ -1,0 +1,35 @@
+.n-cadastro{
+    z-index:300;
+    flex-direction: column;
+    margin: 2vh auto;
+    height: 180vh;
+    width: 70vw;
+    border-radius: 1.6rem;
+    padding: 4rem 5.4rem;
+    display: flex;
+}
+
+.modal-plus {
+    position: absolute;
+    z-index: 4;
+    width: 100%;
+    height: 200%;
+    background-color: #0000009f;
+    box-shadow: 0px 0px 4rem 4rem #000000;
+    overflow: hidden;
+}
+
+.modal-colunas.maior{
+    width: 104vw;
+}
+
+.modal-colunas.menor{
+    width: 7vw;
+}
+
+.cadastro-botoes{
+    display: flex;
+    gap: 2.4rem;
+    margin-top: 10vh;
+    margin-left: 40vw;
+}

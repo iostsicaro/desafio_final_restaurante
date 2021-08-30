@@ -1,0 +1,54 @@
+.blurry {
+    position: absolute;
+    filter: blur(0.6rem);
+}
+
+.sub-cabecalho {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 15vh;
+}
+
+.sub-cabecalho button {
+    margin-right: 18vw;
+}
+
+.sub-cabecalho span {
+    display: none;
+}
+
+.vazio {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.vazio div {
+    margin-top: 20vh;
+    font-size: 1.6rem;
+    color: var(--cinza-medio);
+    text-align: center;
+}
+
+.vazio span {
+    display: flex;
+}
+
+.vazio button {
+    margin-right: 0;
+    margin-top: 3rem;
+}
+
+.container-produtos {
+    background-color: var(--branco);
+    padding: 8vh 8vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+    grid-template-areas: ". ." ". .";
+    height: 100%;
+    width: 100%;
+}

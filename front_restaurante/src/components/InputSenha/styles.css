@@ -1,0 +1,15 @@
+.input-password {
+    position: relative;
+}
+
+.input-password input{
+    padding-right: 1.5rem;
+}
+
+.eye-password {
+    position: absolute;
+    top: 3.7rem;
+    right: 1.5rem;
+    z-index: 4;
+    cursor: pointer;
+}

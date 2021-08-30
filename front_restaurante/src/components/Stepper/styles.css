@@ -1,0 +1,27 @@
+.stepbox {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.step {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    background-color: #c9ccd121;
+    transition: 0.7s;
+}
+
+.editando {
+    color: var(--laranja-intenso);
+    background-color: #d1320121;
+}
+
+.concluido {
+    color: #006335;
+    background-color: #0d8a5021;
+}

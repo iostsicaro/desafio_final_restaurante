@@ -1,0 +1,19 @@
+.placeholder-base {
+    width: 200%;
+    height: 100%;
+    border-radius: 1.6rem;
+    border: 0.2rem solid #FB3B0033;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.placeholder-texto {
+    color: var(--branco);
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 70%;
+    margin-bottom: 10%;
+}

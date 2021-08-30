@@ -1,0 +1,170 @@
+.fechar {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    background-color: black;
+    border: 0.4rem solid;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.n-pedido {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 5vh;
+    left: 30vw;
+    height: 90vh;
+    width: 40vw;
+    border-radius: 1.6rem;
+    padding: 4rem 5.4rem;
+}
+
+
+.cart-titulo {
+    display: flex;
+    align-items: center;
+    font-family: var(--baloo);
+    font-size: 3rem;
+}
+
+.cart-titulo img {
+    margin-right: 2rem;
+    width: 5rem;
+    height: auto;
+}
+
+.padded {
+    padding: 7rem 7rem 0 7rem;
+}
+
+.area-endereco {
+    margin: 1.5rem;
+}
+
+.text-endereco {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--cinza-azulado);
+    margin-left: 1rem;
+}
+
+.txt-end-entrega {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--laranja-intenso);
+}
+
+.alerta-endereco {
+    color: #AA320F;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 1.4rem;
+    font-weight: 700;
+    background-color: #FB3B0033;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.txt-tempo {
+    color: #525459;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.cartbox {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    overflow-y: auto;
+    height: 60vh;
+}
+
+.mini-card {
+    display: flex;
+}
+
+.mini-card img {
+    width: 7rem;
+    height: 6.5rem;
+    border-radius: 1.5rem;
+    margin-right: 2rem;
+}
+
+.mini-detalhes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.mini-nome {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #525459;
+}
+
+.mini-quantidade {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #525459;
+}
+
+.mini-preco {
+    font-size: 1.0rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1.8rem;
+    width: 7.8rem;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    color: #006335;
+    background-color: #0d8a5010;
+    font-size: 1rem;
+}
+
+.fim-pedido {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    border-top: 1px solid #D4D4D4;
+    gap: 1.5rem;
+}
+
+.fim-pedido button {
+    align-self: center;
+}
+
+.txt-fim {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #525459;
+}
+
+.fim-taxa, .fim-total, .fim-subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt-total{
+    color: #525459;
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.txt-resto{
+    color: #525459;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.center-this-button{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

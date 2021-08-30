@@ -1,0 +1,40 @@
+:root {
+    --verde-limao: #0D8A4F;
+    --verde-light: #2ab071, 20%;
+    --cinza-light: #f2f4f7;
+}
+
+.toggle-out {
+    width: 3.6rem;
+    border-radius: 2.5rem;
+    padding: 0.4rem;
+    background-color: var(--cinza-light);
+    border: 1px solid var(--cinza-claro);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.toggle-out.ativada {
+    background-color: var(--verde-light);
+    border: 1px solid var(--verde-limao);
+}
+
+.toggle-in {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background-color: var(--cinza-claro);
+    transition: inherit;
+}
+
+.toggle-in.ativada{
+    background-color: var(--verde-limao);
+    margin-left: 52%;
+}
+
+.toggle-text{
+    color: var(--cinza-medio);
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-left: 1.2rem;
+}

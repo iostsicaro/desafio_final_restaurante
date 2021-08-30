@@ -1,0 +1,28 @@
+<svg width="384" height="385" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <linearGradient y2="1.00118" x2="0.5412" y1="0" x1="0.5" id="paint0_linear">
+   <stop stop-opacity="0.2" stop-color="#121212"/>
+   <stop stop-opacity="0.8" stop-color="#121212" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_1" fill="url(#paint0_linear)" rx="16" height="384" width="384" y="0.70117"/>
+  <rect id="svg_2" stroke-width="2" stroke-opacity="0.2" stroke="#FB3B00" rx="15" height="382" width="382" y="1.70117" x="1"/>
+  <g>
+   <circle fill="white" r="16.8365" cy="121.5" cx="180"/>
+  </g>
+  <g>
+   <path fill="white" d="m141.56319,147.04058l-29.92102,41.7864c-1.89538,2.647 -0.0034,6.3287 3.25222,6.3287l154.2139,0c2.9,0 4.836,-2.9901 3.65,-5.6365l-32.872,-73.31079c-1.213,-2.70509 -4.845,-3.19689 -6.733,-0.9119l-53.2199,64.38289c-1.6246,1.9654 -4.6488,1.9293 -6.2261,-0.0743l-25.7489,-32.7099c-1.6481,-2.0936 -4.844,-2.021 -6.3952,0.1454z"/>
+  </g>
+  <g>
+   <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.8" stroke="white" d="m207,276.49998l0,6.66667c0,0.88405 -0.3512,1.73186 -0.9763,2.35706c-0.6251,0.6251 -1.473,0.9763 -2.357,0.9763l-23.33337,0c-0.88405,0 -1.7319,-0.3512 -2.35702,-0.9763c-0.62512,-0.6252 -0.97631,-1.47301 -0.97631,-2.35706l0,-6.66667"/>
+  </g>
+  <g>
+   <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.8" stroke="white" d="m192,257.49998l0,20.00003"/>
+  </g>
+  <g>
+   <path stroke-linejoin="round" stroke-linecap="round" stroke-width="2.8" stroke="white" d="m183.66666,264.66665l8.33333,-8.33331l8.33334,8.33331"/>
+  </g>
+ </g>
+</svg>
