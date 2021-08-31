@@ -41,8 +41,21 @@
 .textinho-tabela {
     font-size: 1.3rem;
     font-weight: 400;
+    margin: 0;
 }
 
 .ver-mais{
-    box-sizing: block;
+    all: unset;
+    margin: 0;
+    box-sizing: inline;
+    font-size: inherit;
+    font-weight: 700;
+    color: var(--laranja-intenso);
+}
+
+.textinho-tabela-plus{
+    all: unset;
+    margin: 0;
+    box-sizing: inline;
+    font-size: inherit;
 }

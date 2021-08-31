@@ -56,6 +56,11 @@ export default function ModalItens({ selecionado, setAbrirModal, abrirModal }) {
             </div>
             <div className="area-endereco">
               <div>
+              <span className="txt-end-entrega">Cliente:</span>
+                <span className="text-endereco">
+                  {selecionado && selecionado.consumidor.nome}
+                </span>
+                <br />
                 <span className="txt-end-entrega">Endereco de entrega:</span>
                 <span className="text-endereco">
                   {selecionado && editarEndereco(selecionado.endereco)}
