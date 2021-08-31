@@ -25,10 +25,8 @@ const uploadImagem = async (req, res) => {
 
         if (error) {
             if (error.message.includes("duplicate")) {
-                console.log('eu so')
                 updateImagem(req, res, nome, buffer);
             } else {
-                console.log(error)
                 return res.status(400).json(error.message);
             }
         }

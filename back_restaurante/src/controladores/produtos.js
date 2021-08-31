@@ -37,7 +37,7 @@ const cadastrarProdutos = async (req, res) => {
     try {
         await schemaProduto.validate(req.body);
 
-        const verificarNomeProduto = await knex('produtos').where({ nome: nome, restaurante_id: restaurante.id }).first();
+        const verificarNomeProduto = await knex('produtos').where('produtos.nome', 'ilike', `%${nome}%`).andWhere({ restaurante_id: restaurante.id }).first();
 
         if (verificarNomeProduto) {
             return res.status(404).json('Produto já possui cadastro.');
